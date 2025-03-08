@@ -1,0 +1,11 @@
+﻿  model.cpp
+D:\opengl\Project2\Project2\model.cpp(364,113): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+D:\opengl\Project2\Project2\model.cpp(364,59): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+D:\opengl\Project2\Project2\model.cpp(678,29): warning C4838: 从“double”转换到“float”需要收缩转换
+D:\opengl\Project2\Project2\model.cpp(678,29): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+D:\opengl\Project2\Project2\model.cpp(679,39): warning C4838: 从“double”转换到“float”需要收缩转换
+D:\opengl\Project2\Project2\model.cpp(679,39): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+D:\opengl\Project2\Project2\model.cpp(719,52): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+D:\opengl\Project2\Project2\model.cpp(718,66): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+D:\opengl\Project2\Project2\model.cpp(871,33): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+  Project2.vcxproj -> D:\opengl\Project2\x64\Debug\Project2.exe
