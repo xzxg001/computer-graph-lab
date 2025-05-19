@@ -1,0 +1,52 @@
+# Exported from 3D Builder
+
+newmtl Purple
+Kd 0.639216 0.286275 0.643137
+
+newmtl White
+Kd 1.000000 1.000000 1.000000
+map_Kd Backboard rear.png
+
+newmtl White_0
+Kd 1.000000 1.000000 1.000000
+map_Kd Net.png
+
+newmtl Orange
+Kd 1.000000 0.498039 0.145098
+
+newmtl White_1
+Kd 0.878431 0.878431 0.878431
+
+newmtl White_2
+Kd 1.000000 1.000000 1.000000
+map_Kd Backboard.jpg
+
+newmtl Yellow
+Kd 0.996078 0.945098 0.000000
+
+newmtl Indigo
+Kd 0.243137 0.278431 0.796079
+
+newmtl White_3
+Kd 1.000000 1.000000 1.000000
+map_Kd Backboard rear.jpg
+
+newmtl White_4
+Kd 1.000000 1.000000 1.000000
+map_Kd panel 4.jpg
+
+newmtl White_5
+Kd 1.000000 1.000000 1.000000
+map_Kd Panel 3.jpg
+
+newmtl White_6
+Kd 1.000000 1.000000 1.000000
+map_Kd Front panel.jpg
+
+newmtl White_7
+Kd 1.000000 1.000000 1.000000
+map_Kd panel 5.jpg
+
+newmtl White_8
+Kd 1.000000 1.000000 1.000000
+map_Kd Panel 2.jpg

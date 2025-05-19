@@ -1,0 +1,14 @@
+﻿  main.cpp
+D:\opengl\Project3\Project3\main.cpp(445,13): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+D:\opengl\Project3\Project3\main.cpp(608,24): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+D:\opengl\Project3\Project3\main.cpp(609,24): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+D:\opengl\Project3\Project3\main.cpp(610,18): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\opengl\Project3\Project3\main.cpp(611,18): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\opengl\Project3\Project3\main.cpp(613,27): warning C4305: “初始化”: 从“double”到“float”截断
+D:\opengl\Project3\Project3\main.cpp(622,17): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+D:\opengl\Project3\Project3\main.cpp(648,32): warning C4305: “+=”: 从“double”到“float”截断
+D:\opengl\Project3\Project3\main.cpp(734,54): warning C4244: “参数”: 从“const float”转换到“int”，可能丢失数据
+D:\opengl\Project3\Project3\main.cpp(734,43): warning C4244: “参数”: 从“const float”转换到“int”，可能丢失数据
+D:\opengl\Project3\Project3\main.cpp(773,29): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+D:\opengl\Project3\Project3\main.cpp(793,33): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+  Project3.vcxproj -> D:\opengl\Project3\x64\Debug\Project3.exe

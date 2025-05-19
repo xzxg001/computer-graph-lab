@@ -1,51 +1,47 @@
-**Read this in other languages: [中文](README_zh.md), [English](README.md).**
+# 计算机图形学课程实验项目总览
 
-# OpenGL 3D Scene Project 
- 
-![Scene Preview](images/screenshot.png)   
- 
-## Project Overview 
-This is an interactive 3D scene built with OpenGL, featuring rich terrain elements (ground, river, mountains), dynamic objects (swimming fish, rotating sun, sparkling stars), a controllable character, and various structures and vegetation. Users can freely explore the scene using keyboard and mouse controls.
- 
-## Core Features 
-### 🎮 Interactive Controls 
-- **Character Movement**: Arrow keys for navigation, Spacebar for jumping animation.
-- **Camera Control**: WSAD for movement, mouse for orientation, scroll for zoom.
-- **Color Cycling**: Press P to cycle through 7 preset body colors.
- 
-### 🌟 Dynamic Behaviors 
-| Object      | Animation                | Technique               |
-|-------------|--------------------------|-------------------------|
-| Fish        | X-axis oscillation       | Sine-based displacement |
-| Sun         | Circular orbit rotation  | Polar coordinate math   |
-| Grass       | Color wave effect        | Fragment shader blending|
-| Stars       | Y-axis rotation (30°/s)  | Model matrix rotation   |
- 
-## Object Specifications 
-### 🏔️ Terrain System 
-- **Ground**: Brownish plane (RGB: 0.8, 0.6, 0.2).
-- **River**: Segmented blue/white stripes simulating water flow.
-- **Mountain**: Tri-layer color gradient for a three-dimensional effect.
- 
-### 🏠 Structures & Vegetation 
-```cpp 
-// House construction example 
-drawHouse() {
-  createBase(gray cube);
-  addWalls(beige cuboid);
-  buildRoof(brown pyramid);
-  drawWindows(pink/blue squares);
-}
-```
+本项目为计算机图形学课程的系列实验，涵盖了现代 OpenGL 三维场景的建模、渲染、纹理、光照、动画与交互等核心内容。项目分为多个实验子目录（如 lab1、lab2），每个实验聚焦于不同的图形学技术与综合应用。
 
-## Tech Stack
-OpenGL 4.3: Core rendering pipeline.\
-GLM: Matrix/vector operations.\
-GLFW 3.3: Window/input management.\
-GLEW 2.1: Extension handling.
+## 项目结构
 
-## Installation Guide
-### Requirements
-OpenGL 4.3 compatible GPU.\
-C++ compiler (GCC/MSVC/Clang).\
-Third-party libraries: GLEW + GLFW + GLM.
+- `lab1/`：基础 3D 场景建模与交互，包含地形、建筑、植被、动态物体和可控角色。
+- `lab2/`：纹理映射与多光源照明，复杂模型加载，天空盒与昼夜切换，丰富的场景交互。
+- `images/`：项目效果截图与资源。
+- 其它依赖库与资源文件。
+
+## 主要特性
+
+- **三维场景建模**：地面、河流、山脉、房屋、树木、草丛等多种元素。
+- **动态动画效果**：如鱼群游动、太阳轨道旋转、草丛颜色波动、星星自转等。
+- **角色与摄像机控制**：支持角色移动、跳跃、颜色切换，摄像机自由视角与缩放。
+- **纹理与光照系统**：多模型纹理切换、定向光/点光源/聚光灯组合、昼夜环境切换。
+- **复杂模型加载**：支持 OBJ 等格式的模型导入，丰富场景内容。
+- **天空盒与环境渲染**：实现立方体贴图天空盒，增强沉浸感。
+- **丰富的交互体验**：键盘、鼠标多种操作，支持第三人称与自由相机切换。
+
+## 技术栈
+
+- OpenGL 4.3
+- GLM（矩阵/向量运算）
+- GLFW（窗口与输入管理）
+- GLEW（OpenGL 扩展加载）
+- C++11
+- stb_image（纹理加载，部分实验）
+
+## 编译与运行
+
+1. 安装依赖库（GLEW、GLFW、GLM 等）。
+2. 进入对应实验目录（如 `lab1/Project2/` 或 `lab2/`），使用 CMake 或 Visual Studio 打开工程文件（如 `Project2.sln`）。
+3. 编译并运行生成的可执行文件。
+4. 具体操作说明与功能介绍详见各实验子目录下的 `README.md` 或 `README_zh.md`。
+
+## 效果预览
+
+![场景预览](images/screenshot.png)
+
+---
+
+如需详细功能、操作说明和技术细节，请参阅各实验目录下的说明文档：
+
+- [lab1/README_zh.md](lab1/README_zh.md)
+- [lab2/README.md](lab2/README.md)
