@@ -7,7 +7,7 @@
 
 ​	最终的实现效果如下：
 
-<img src="/workspaces/computer-graph-lab/lab2/images/实现效果.png" alt="实现效果" style="zoom:67%;" />
+<img src="./images/实现效果.png" alt="实现效果" style="zoom:67%;" />
 
 
 
@@ -30,7 +30,7 @@
 
       **打开手电筒**的效果如下：
 
-    <img src="/workspaces/computer-graph-lab/lab2/images/打开手电筒.png" alt="打开手电筒" style="zoom:67%;" />
+    <img src="./images/打开手电筒.png" alt="打开手电筒" style="zoom:67%;" />
 
     ​	**打开路灯**的效果如下：
 

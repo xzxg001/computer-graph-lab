@@ -37,8 +37,9 @@
 
 ## 效果预览
 
-![场景预览](images/screenshot.png)
+![场景预览1](images/screenshot.png)
 
+![场景预览2](/lab2/images/实现效果.png)
 ---
 
 如需详细功能、操作说明和技术细节，请参阅各实验目录下的说明文档：
